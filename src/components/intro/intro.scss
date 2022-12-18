@@ -1,0 +1,71 @@
+*{
+    font-family: 'Libre Baskerville';
+    scrollbar-width: none;//firefox
+    &::-webkit-scrollbar{//chrome & other browsers
+        display: none;
+    };
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+    
+}
+
+
+
+.Article{
+ 
+    position: relative;
+    top: 70px;
+    height: calc(100vh - 70px);
+    align-items: center;
+    padding-bottom: 50px;
+
+    .ItemsContainer{
+        align-items: center;
+        width: 100%;
+        padding-left: 13px;
+        padding-top: 19px;
+
+        img{
+            width: 98%;
+        }
+        .featured{
+            position:absolute;
+            top: 10px;
+            background-color: white;
+            box-shadow: 0px 0px 15px -8px black;
+            border-radius: 3px;
+            margin: 0;
+            left: 50px;
+            width: 550px;
+            height: 570px;
+            margin-top: 8px;
+
+            article{
+                padding-left: 17px;
+                
+                h4{
+                    padding-top: 80px;
+                    padding-bottom: 6px;
+                    color: gray;
+                    margin-bottom: 3px;
+                    font-size: 20px;
+                    font-weight:400;
+                }
+                h1{
+                    top: 1px;
+                    margin-top: 1px;
+                    margin-bottom: 9px;
+                    font-size: 40px;
+                    
+
+                }
+                h5{
+                    margin-top: 2px;
+                    color: gray;
+                    font-size: 16px;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}

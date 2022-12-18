@@ -1,0 +1,193 @@
+.Editor{
+    .featuredArticle{
+        position: relative;
+        width: 1400px;
+        img{
+            margin:20px;
+            margin-left: 20px;
+            width: 100%;
+            box-shadow: 0px 0px 15px -8px black;
+        }
+        .article{
+            top: 0;
+            margin-top: 90px;
+            width: 600px;
+            color: black;
+            background-color: white;
+            position: absolute;
+            margin-left: 750px;
+            height: 500px;
+            box-shadow: 0px 0px 15px -8px black;
+            border-radius: 5px;
+
+            .content{
+                margin-left: 30px;
+
+                h4{
+                    margin-top:60px;
+                    margin-bottom: 10px;
+                    color: gray;
+                    font-weight: lighter;
+                    font-size: 20px;
+                    
+                }
+                h1{
+                    margin-top: 1px;
+                    margin-bottom: 1px;
+                    text-decoration: none;
+                    font-size: 37px;
+                }
+                h5{
+                    margin-top: 20px;
+                    margin-bottom:6px ;
+                    color: gray;
+                    font-size: 18px;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 22px;
+                }
+            }
+
+        }
+    }
+    .recentPosts{
+        background-color: black;
+        width: 1250px;
+        height: calc(100vh - 70px);
+        margin-left: 90px;
+        display: flex;
+        margin-bottom: 5px;
+
+        
+
+        .posts{
+            width: 80%;
+            height: 100%;
+            background-color: white;
+            margin-bottom: 0px;
+
+            .itemContainers{
+                display: flex;
+                height: 125px;
+                margin-top: 20px;
+                margin-bottom: 60px;
+
+                img{
+                    height: 150px;
+                }
+            }
+            .Info{
+                margin-left: 15px;
+                h4{
+                    padding-top: 0px;
+                    padding-bottom: 3px;
+                    color: gray;
+                    margin-top: 2px;
+                    margin-bottom: 0px;
+                    font-size: 15px;
+                    font-weight:400;
+                }
+                h1{
+                    top: 1px;
+                    margin-top: 1px;
+                    margin-bottom: 9px;
+                    font-size: 20px;
+                    
+
+                }
+                h5{
+                    margin-top: 2px;
+                    margin-bottom: 1px;
+                    color: gray;
+                    font-size: 13px;
+                    font-weight: lighter;
+                }
+            }
+    
+        }
+        .tags{
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            height: 100%;
+            color: black;
+            background-color: white;
+            h4{
+                margin-left: 90px;
+            }
+            ul li{
+                margin-left: 50px;
+                align-items: center;
+                margin-bottom: 25px;
+            }
+        }
+
+    }
+    .Editor_picks{
+        width: 700px;
+        margin-left: 350px;
+        height: 900px;
+        color: black;
+    
+        .head{
+            margin-left: 240px;
+            margin-bottom: 5px;
+            text-decoration-line: underline;
+            text-underline-offset: 16px;
+            
+        }
+        .itemContainer{
+    
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px;
+            height: 240px;
+            display: flex;
+    
+            .Left{
+                background-color: white;
+                height: 100%;
+                width: 45%;
+    
+                img{
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+            }
+    
+            .Right{
+                position: relative;
+                margin-left: 15px;
+                height: 100%;
+                width: 55%;
+    
+                h4{
+                    margin-bottom: 1px;
+                    color: gray;
+                    font-weight: lighter;
+                }
+                h1{
+                    margin-top: 1px;
+                    margin-bottom: 1px;
+                    text-decoration: none;
+                    font-size: 30px;
+                }
+                h5{
+                    margin-top: 2px;
+                    margin-bottom:6px ;
+                    color: gray;
+                    font-size: 10px;
+                }
+                p{
+                    margin-top: 0;
+                    font-size: 12px;
+                }
+                
+            }
+        }
+    }
+}

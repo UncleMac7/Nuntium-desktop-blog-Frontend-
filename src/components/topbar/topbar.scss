@@ -1,0 +1,85 @@
+.Topbar{
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    position: fixed;
+    display: inline-block;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        position: relative;
+
+        .Left{
+            align-items:center;
+            justify-content: space-between;
+
+            .LogoContainer{
+                
+                width: 30px;
+                display: inline;
+
+                img{
+                    
+                    height: 40px;
+                    padding-top: 9px;
+                    padding-left: 5px;
+                  }
+
+            }
+
+         
+             a{
+                position: relative;
+                padding-bottom: 1px;
+                margin-left: 23px;
+                padding-left: 7px;
+                text-decoration: none;
+                color: black;
+
+              }
+        }
+
+        .Right{
+            padding-top: 19px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+             .SearchContainer{
+                
+                position:relative;
+                align-items: center;
+                img{
+                    padding-right: 9px;
+                    width: 30px;
+                    height: 25px;
+                    
+                }
+
+             }
+
+            
+            .login{
+            
+                text-align: center;
+                margin-left: 5px    ;
+                margin-right: 15px;
+                height: 29px;
+                width: 100px;
+                border-radius: 10px;
+                background-color: white;
+                border-color: black;
+                cursor: pointer;
+                
+            }
+
+        }
+    }
+}
